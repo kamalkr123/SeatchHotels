@@ -7,7 +7,7 @@ const options = {
     q: "",
   },
   headers: {
-    "X-RapidAPI-Key": "e0b4d51db0msh77252321323a15bp16ebd5jsn80f2496d08a8",
+    "X-RapidAPI-Key": "bc9a7514e4msh236bad69ca786d4p132674jsn4e158baf055d",
     "X-RapidAPI-Host": "hotels4.p.rapidapi.com",
   },
 };
