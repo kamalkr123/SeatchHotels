@@ -12,7 +12,7 @@ exports.handler = async function (event) {
     statusCode: 200,
     body: JSON.stringify(data),
     headers: {
-      "Content-Type": "text/plain",
+      "Content-Type": "application/json",
     },
   };
 };
