@@ -10,6 +10,8 @@ class LocationApi {
       }
     ).then((res) => res.json());
 
+    console.log("Location API", response);
+
     return response?.predictions?.map((place: any) => ({
       mainText: place.structured_formatting.main_text,
       subText: place.structured_formatting.secondary_text,
